@@ -13,7 +13,6 @@ function Edit({ id }) {
 
     useEffect(() => {
         // fetch user and set default form values if in edit mode
-        // getCustomerById(id).then(x => setCustomer(x))
         getCustomerById(id).then((x) => setCustomer(x))
     }, []);
 
